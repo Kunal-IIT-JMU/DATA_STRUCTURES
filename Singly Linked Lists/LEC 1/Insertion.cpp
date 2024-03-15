@@ -18,8 +18,10 @@ class node{
 //Function to add a Node at head
 void insertnodehead(node* &head,int data){
     node* nn = new node(data);
-    if(head == NULL)
-    head == nn;
+    if(head == NULL){
+        head = nn;
+        return;
+    }
     nn -> next = head;
     head = nn;
 }
@@ -28,7 +30,7 @@ void insertnodehead(node* &head,int data){
 void insertnode(node* &head,int data,int pos){
     node* nn = new node(data);
     node* temp = head;
-    while(temp->data != pos){
+    while(temp -> data != pos){
         temp = temp -> next;
     }
     nn -> next = temp -> next;
@@ -36,7 +38,7 @@ void insertnode(node* &head,int data,int pos){
 }
 
 //Function to add a node at tail
-void insertnodetail(node* head, int data){
+void insertnodetail(node* &head, int data){
     node* nn = new node(data);
     node* temp = head;
     while(temp -> next != NULL){
