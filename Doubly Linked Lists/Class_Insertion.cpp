@@ -54,7 +54,7 @@ void insert_node_pos(node* &head, int data,int pos){
 }
 
 //printing the Linked Lists
-void print(node* head){
+void print(node* &head){
     node* temp = head;
     while(temp != NULL){
         cout << temp -> data << " <~> " ;
