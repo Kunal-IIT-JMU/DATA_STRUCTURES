@@ -10,28 +10,21 @@ Then we use the dequeue which means to remove the first element of the array til
 
 using namespace std;
 
+//creating a class for the queue
 class queue{
-    public:
-    int* arr;
+    int * arr;
     int front;
-    int rear;
-    int size;
+    int back;
 
-    //creating the given class queue
-    queue(){
-        size = 100001;
-        arr = new int[size];
-        front = 0;
-        rear = 0;
-    }
-
-    //enqueue the given queue
-    void enqueue(){
-        
+    public:
+    queue(int n){
+        arr = new int[n];
+        front = -1;
+        back = -1;
     }
 };
 
 int main(){
-    
+
     return 0;
 }
