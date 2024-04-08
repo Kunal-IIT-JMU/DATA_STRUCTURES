@@ -1,0 +1,12 @@
+Stack is a data Structure in which is based on the LIFO(Last In First Out) Approach.
+
+operation i the queue
+1. push(x)
+2. pop()
+3. top()
+4. empty()
+
+There are two ways to implement a stack it can be implemented 
+1. Array implementation of stack
+2. Linked list implementation of stack
+3. Vector implementaion of Stack
