@@ -1,4 +1,4 @@
-Queue is a data Structure in which is based on the FIFO(First In First Out) Approach.
+Queue is a data Structure in which is based on the LIFO(Last In First Out) Approach.
 
 operation i the queue
 1. push(x)
@@ -6,8 +6,7 @@ operation i the queue
 3. top()
 4. empty()
 
-There are two ways to implement a stack it can be implemented 
-1. Array implementation of stack
-2. Linked list implementation of stack
-3. Vector implementaion of Stack
-4. STL Queue implementation
+There are two ways to implement a Queue it can be implemented 
+1. Array implementation of Queue
+2. Linked list implementation of Queue
+3. Vector implementaion of Queue
