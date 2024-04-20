@@ -7,9 +7,6 @@ using namespace std;
 class Stack{
     public:
     vector <int> v;
-    Stack(){
-        vector <int> s;
-    }
 
     void push(int data){
         v.push_back(data);
