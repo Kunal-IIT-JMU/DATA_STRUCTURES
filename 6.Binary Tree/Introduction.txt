@@ -1,0 +1,8 @@
+Binary Tree is a Non Linear Data Structure.
+Terminology:
+1. Node : It is the place which store data and also right left connectors. It has 3 parts Data , Right , Left.
+2. Root : It is the Node from which the Binary Tree Starts.
+3. Parent : These node is the node which has a node connected to it.
+4. Children : These are the furthur node connected to the parent.
+5. Siblings : The nodes connected to the same parents are called Siblings.
+6. Leaf : The node which does not have a child node is called a leaf node.
