@@ -50,7 +50,7 @@ TreeNode* r_rotate(TreeNode* root){
     root -> height = 1 + max(height(root -> left), height(root -> right));
     x -> height = 1 + max(height(x -> left) , height(x -> right));
 
-    return root;
+    return x;
 }
 
 TreeNode* l_rotate(TreeNode* root){
@@ -65,7 +65,7 @@ TreeNode* l_rotate(TreeNode* root){
     root -> height = 1 + max(height(root -> left),height(root -> right));
     x -> height = 1 + max(height(x -> left),height(x -> right));
 
-    return root;
+    return x;
 }
 
 TreeNode* Insert(TreeNode* root,int data){
